@@ -1352,3 +1352,64 @@ section {
 #footer .credits a:hover {
   color: #008df1;
 }
+
+
+
+--------------------------------------------------------------*/
+.clients2 .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clients2 .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #389eb8;
+}
+
+.clients2 .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #389eb8;
+}
+
+.clients2 .swiper-slide img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+.clients2 .swiper-slide img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+
+.clients2 .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clients2 .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #389eb8;
+}
+
+.clients2 .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #389eb8;
+}
+
+.clients2 .swiper-slide img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+.clients2 .swiper-slide img:hover {
+  filter: none;
+  opacity: 1;
+}
+
