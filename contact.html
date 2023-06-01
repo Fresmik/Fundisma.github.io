@@ -98,46 +98,39 @@
                 <h4>Email:</h4>
                 <p>mariagins@hotmail.com</p>
               </div>
-
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Celular:</h4>
                 <p>+57 3116568143</p>
               </div>
-
             </div>
-
           </div> 
-
           <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://formsubmit.co/a1efe2d4c16ff3eb43b4ebd61e440d5e" method="post">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombres y Apellidos" required>
+                  <input type="text" name="name" class="form-control" id="Nombres" placeholder="Nombres y Apellidos" required>
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Correo Electronico" required>
+                  <input type="email" class="form-control" name="Email" id="Email" placeholder="Correo Electronico" required>
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" required>
+                <input type="text" class="form-control" name="Asunto" id="Asunto" placeholder="Asunto" data-rule="minlen:4" required>
                 <div class="validate"></div>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                <textarea class="form-control" name="Mensaje" rows="5" placeholder="Mensaje" required></textarea>
                 <div class="validate"></div>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <input type="submit" value="Enviar">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact.html">
+                <input type="hidden" name="_captcha" value="false">
               </div>
-              <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
             </form>
-
           </div>
 
         </div>

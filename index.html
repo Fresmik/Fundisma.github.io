@@ -23,6 +23,9 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/whats.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -70,7 +73,7 @@
         </div>
 
         <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/ejemplo.png)">
+        <div class="carousel-item" style="background-image: url(assets/img/slide/acordeon2.jpeg)">
         </div>
 
         <!-- Slide 3 -->
@@ -89,9 +92,40 @@
 
     </div>
   </section><!-- End Hero -->
+  <script src="assets/js/script2.js"></script>       
 
   <main id="main">
-
+    <!-- Inicio Barra lateral de redes sociales -->
+    <link rel="stylesheet" href="assets/css/whats2.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <div class="nav-bottom">
+        <div class="popup-whatsapp fadeIn">
+            <div class="content-whatsapp -top">
+                <button type="button" class="closePopup">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="color:white;" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                    </svg>
+                </button> 
+                <p>
+                    <img src="assets/img/LOGOM.png" width="50"> Hola, ¿en qué podemos ayudarle?
+                </p>
+            </div>
+            <div class="content-whatsapp -bottom">
+                <input class="whats-input" id="whats-in" type="text" placeholder="Enviar mensaje...">
+                <button class="send-msPopup" id="send-btn" type="button">
+                    <i class="bi bi-send-check-fill" style="color: #31708f;"></i>
+                </button>
+            </div>
+        </div>
+        <button type="button" id="whats-openPopup" class="whatsapp-button">
+            <div class="float">
+                <i class="fa fa-whatsapp my-float"></i>
+            </div>
+        </button>
+        <div class="circle-anime"></div>
+    </div>
+    <script src="assets/js/script2.js"></script>       
+    
     <!-- ======= My & Family Section ======= -->
     <section id="about" class="about">
       <div class="container"> 
@@ -138,23 +172,23 @@
             <p class="description">La fundación está orientada al desarrollo de proyectos que contribuyen al progreso y al posicionamiento en la región, con el objeto de promover la participación y mejorar la calidad de vida mitigando la pobreza.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-bounding-box"></i></div>
+            <div class="icon"><i class="bi bi-house"></i></div>
             <h4 class="title"><a href="">Proyectos de Vivienda</a></h4>
             <p class="description">La fundación desde el año 2013 ha gestionado y llevado a cabo proyectos de vivienda.
               El proyecto de vivienda va dirigido a los sectores más vulnerables, con énfasis en núcleos familiares madres cabezas de hogar.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-broadcast"></i></div>
+            <div class="icon"><i class="bi bi-mortarboard-fill"></i></div>
             <h4 class="title"><a href="">Proyecto Educativo</a></h4>
             <p class="description">La fundación desde el año 2021 ha gestionado y llevado a cabo proyectos educativos, que han fortalecido la educación de los beneficiarios y sus familias.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-camera"></i></div>
+            <div class="icon"><i class="bi bi-hospital"></i></div>
             <h4 class="title"><a href="">Proyecto de Salud Comunitaria</a></h4>
             <p class="description">La fundación desde el año 2013 ha gestionado y llevado a cabo proyectos en salud comunitaria, promoviendo la mejora continua en salud de prevención y promoción de la comunidad en general.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-diagram-3"></i></div>
+            <div class="icon"><i class="bi bi-wallet-fill"></i></div>
             <h4 class="title"><a href="">Suministro y Logistica</a></h4>
             <p class="description">La fundación ejecuta proyectos de logística que tienen como objetivo principal mejorar la calidad de vida de los beneficiarios, mediante el desarrollo de actividades integradas que conlleven a la satisfacción.
 
@@ -164,11 +198,64 @@
 
       </div>
     </section><!-- End Features Section -->
-
+    <!-- =======Redes Sociales======= -->
+    <div class="container pt-1">
+      <hr class="featurette-divider">
+      <div class="row mb-3 text-center">
+        <h4 style=""></h4>
+        <p></p>
+        <div class="col-12 col-sm-6 col-md-4 themed-grid-col">
+          <h4 style="color: #31708f"><b>TWITTER</b></h4>
+          <article class="card border-0 shadow-lg p-3 mb-5 bg-body rounded">
+            <div>
+              <blockquote class="twitter-tweet">
+                <p lang="es" dir="ltr">Fundación Impacto Social Marianela<a href="https://twitter.com/hashtag/Juntadirectiva?src=hash&amp;ref_src=twsrc%5Etfw">#Juntadirectiva</a><a href="https://twitter.com/hashtag/fundacion?src=hash&amp;ref_src=twsrc%5Etfw">#fundacion</a><a href="https://twitter.com/hashtag/mujeresempoderadas?src=hash&amp;ref_src=twsrc%5Etfw">#mujeresempoderadas</a> <a href="https://t.co/LGOteVr4tn">pic.twitter.com/LGOteVr4tn</a></p>&mdash; kevin salazar (@FISMARIANELA) <a href="https://twitter.com/FISMARIANELA/status/1614046555182333952?ref_src=twsrc%5Etfw">January 13, 2023</a>
+              </blockquote>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 themed-grid-col">
+          <h4 style="color: #31708f"><b>FACEBOOK</b></h4>
+          <article class="card border-0 shadow-lg p-3 mb-5 bg-body rounded">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fimpacto.femenino74%2Fposts%2Fpfbid037FzAebew9puBWZagtpPfqHtsAxZw5LP3bG9GYEA27i32TysxpEdY9ARSQLtdhpeYl&show_text=true&width=500" height="520" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 themed-grid-col">
+          <h4 style="color:#31708f;"><b>INSTAGRAM</b></h4>
+          <article class="card border-0 shadow-lg p-3 mb-5 bg-body rounded">
+            <p class="">
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/ChXvqYEO5BB/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                <div style="padding:16px;">
+                  <a href="https://www.instagram.com/p/ChXvqYEO5BB/?utm_source=ig_embed&amp;utm_campaign=loading" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank" rel="noopener noreferrer">
+                    <div style="display:flex; flex-direction:row; justify-content:center;">
+                      <div style="background-color:#F4F4F4; border-radius:50%; display:inline-block; overflow:hidden; padding:0; width:40px;">
+                        <div style="background-color:#F4F4F4; border-radius:50%; display:inline-block; overflow:hidden; padding:0; width:40px;">
+                          <div style="background-color:#F4F4F4; border-radius:50%; display:inline-block; overflow:hidden; padding:0; width:40px;">
+                            <img src="https://instagram.flim18-2.fna.fbcdn.net/v/t51.2885-19/s150x150/105012570_285322859528854_5290340385817369330_n.jpg?_nc_ht=instagram.flim18-2.fna.fbcdn.net&amp;_nc_ohc=vEPwGgCltd4AX_B1rBn&amp;edm=ABfd0MgBAAAA&amp;ccb=7-4&amp;oh=9f33db4fe2cb722e535c558cb6aeaa1a&amp;oe=62A4A21F&amp;_nc_sid=7bff83" style="background:#FFF; border:0; border-radius:50%; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); height:40px; width:40px;" alt="Fundacion Impacto Social Marianela" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <p style="margin:8px 0 0 0; padding:0 4px;">
+                    <a href="https://www.instagram.com/p/ChXvqYEO5BB/?utm_source=ig_embed&amp;utm_campaign=loading" style="color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank" rel="noopener noreferrer">Publicación compartida por Fundacion Impacto Social Marianela (@fundacionimpactosocialmarianela)</a>
+                    <time style="font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2021-10-10T20:38:18+00:00">10 de Oct de 2021 a las 1:38 PDT</time>
+                  </p>
+                </div>
+              </blockquote>
+              <script async src="//www.instagram.com/embed.js"></script>
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+    
     <!-- ======= Recent Photos Section ======= -->
     <section id="recent-photos" class="recent-photos">
       <div class="container">
-
         <div class="section-title">
           <h2>Fotos Recientes</h2>
           <p>Hay recuerdos que el tiempo no borra. El tiempo no hace la pérdida olvidable, solo superable.</p>
@@ -220,7 +307,6 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
