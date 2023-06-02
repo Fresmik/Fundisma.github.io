@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="assets/css/whats.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-
+  <link href="assets/css/ejemplo.css"  type="text/css" rel="stylesheet">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -129,12 +129,10 @@
     <!-- ======= My & Family Section ======= -->
     <section id="about" class="about">
       <div class="container"> 
-
         <div class="section-title">
           <h2>Fundacion Impacto Social Marianela</h2>
           <p>La Fundacion Impacto Social Marianela es una organización no gubernamental, sin animo de lucro que promueve el desarrollo integral a nivel regional y nacional con actividades que contribuyen a la construccion de una sociedad justa, democratica, prospera y equitativa.</p>
         </div>
-
         <div class="row content">
           <div class="col-lg-6">
             <img src="assets/img/about.jpeg" class="img-fluid" alt="">
@@ -152,7 +150,6 @@
             <a href="our-story.html" class="btn-learn-more">Ler Mas</a>
           </div>
         </div>
-
       </div>
     </section><!-- End My & Family Section -->
 
@@ -197,11 +194,30 @@
       </div>
     </section><!-- End Features Section -->
     <!-- =======videos======= -->
-    
+    <section id="youtube" class="youtube">
+      <div class="container">
+        <video id="slider" autoplay muted loop>
+            <source src="assets/img/video1.mp4" type="video/mp4">
+        </video>
+        <ul class="navigation">
+            <li onclick="videoUrl('assets/img/video1.mp4')"><img src="assets/img/intro.jpg"></li>
+            <li onclick="videoUrl('assets/img/video2.mp4')"><img src="assets/img/about.jpeg"></li>
+            <li onclick="videoUrl('assets/img/video3.mp4')"><img src="assets/img/about.jpg"></li>
+        </ul>
+      </div>
+    </section>
+    <script type="text/javascript">
+        function videoUrl(hmmmmmm){
+            document.getElementById("slider").src = hmmmmmm;
+        }
+    </script>
 
     <!-- =======Redes Sociales======= -->
-    <div class="container pt-1">
-      <hr class="featurette-divider">
+  <section id="members" class="members">
+    <div class="section-title">
+      <h2>Redes Sociales</h2>
+    </div>
+    <div class="container">     
       <div class="row mb-3 text-center">
         <h4 style=""></h4>
         <p></p>
@@ -253,6 +269,7 @@
         </div>
       </div>
     </div>
+  </section>
     <!-- ======= Recent Photos Section ======= -->
     <section id="recent-photos" class="recent-photos">
       <div class="container">
@@ -260,7 +277,6 @@
           <h2>Fotos Recientes</h2>
           <p>Hay recuerdos que el tiempo no borra. El tiempo no hace la pérdida olvidable, solo superable.</p>
         </div>
-
         <div class="recent-photos-slider swiper">
           <div class="swiper-wrapper align-items-center">
             <div class="swiper-slide"><a href="assets/img/recent-photos/fun1.jpeg" class="glightbox"><img src="assets/img/recent-photos/fun1.jpeg" class="img-fluid" alt=""></a></div>
