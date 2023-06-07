@@ -229,3 +229,23 @@ new Swiper('.clients2-slider', {
 
 })()
 
+const slider = document.querySelector('.slider');
+const slides = Array.from(document.querySelectorAll('.slide'));
+
+let currentIndex = 0;
+const slideWidth = slides[currentIndex].offsetWidth;
+
+slider.style.transform = `translateX(-${slideWidth * currentIndex}px)`;
+
+function nextSlide() {
+  currentIndex = (currentIndex + 1) % slides.length;
+  slider.style.transform = `translateX(-${slideWidth * currentIndex}px)`;
+}
+
+function prevSlide() {
+  currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+  slider.style.transform = `translateX(-${slideWidth * currentIndex}px)`;
+}
+
+document.querySelector('.next-btn').addEventListener('click', nextSlide);
+document.querySelector('.prev-btn').addEventListener('click', prevSlide);

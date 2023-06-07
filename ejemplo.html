@@ -6,24 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="assets/css/ejemplo.css"  type="text/css" rel="stylesheet">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"  type="text/css" rel="stylesheet">
 </head>
 <body>
-    <section>
-        <video id="slider" autoplay muted loop>
-            <source src="video1.mp4" type="video/mp4">
-        </video>
-        <ul class="navigation">
-            <li onclick="videoUrl('video1.mp4')"><img src="assets/img/intro.jpg"></li>
-            <li onclick="videoUrl('video2.mp4')"><img src="assets/img/about.jpeg"></li>
-            <li onclick="videoUrl('video3.mp4')"><img src="assets/img/about.jpg"></li>
-            <li onclick="videoUrl('video1.mp4')"><img src="assets/img/evento1.jpg"></li>
-        </ul>
-    </section>
+    <div class="container">
+        <h1>videos</h1>
+        <div class="owl-carousel">
+            <div class="item-video" data-merge="2">
+                <a class="owl-video" href="https://www.youtube.com/watch?v=zVqjO2mPZgs&t=29s"></a>
+            </div>
+            <div class="item-video" data-merge="2">
+                <a class="owl-video" href="https://www.youtube.com/watch?v=zVqjO2mPZgs&t=29s"></a>
+            </div>
+            <div class="item-video" data-merge="2">
+                <a class="owl-video" href="https://www.youtube.com/watch?v=zVqjO2mPZgs&t=29s"></a>
+            </div>
+            <div class="item-video" data-merge="2">
+                <a class="owl-video" href="https://www.youtube.com/watch?v=zVqjO2mPZgs&t=29s"></a>
+            </div>
+            
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script type="text/javascript">
-        function videoUrl(hmmmmmm){
-            document.getElementById("slider").src = hmmmmmm;
-        }
+        $(".owl-carousel").owlCarousel({
+            merge: true,
+            loop: true,
+            margin: 10,
+            video: true,
+            lazyLoad: true,
+            center: true,
+        });
     </script>
 </body>
 </html>
