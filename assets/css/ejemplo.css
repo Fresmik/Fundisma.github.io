@@ -54,25 +54,3 @@ section .navigation li img:hover
 {
     width: 200px;
 }
-
-.slider-container {
-    width: 600px;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  
-  .slider {
-    display: flex;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .slide {
-    flex: 0 0 600px;
-    margin-right: 10px;
-  }
-  
-  .slide iframe {
-    width: 100%;
-    height: 100%;
-  }
-  
