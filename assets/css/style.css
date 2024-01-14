@@ -70,7 +70,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #d81e68;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -87,7 +87,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #24325d;
+  color: #ffffff;
 }
 
 #header .logo img {
@@ -125,7 +125,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  color: #2b3c6f;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -141,7 +141,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #006fbe;
+  color: #ffffff;
 }
 
 .navbar .dropdown ul {
@@ -399,10 +399,10 @@ h6 {
   line-height: 0;
   width: auto;
   height: auto;
-  background: rgba(255, 255, 255, 0.2);
+  background: #3c9ec9;
   border-radius: 50px;
   transition: 0.3s;
-  color: rgba(255, 255, 255, 0.5);
+  color: #d81e68;
   width: 54px;
   height: 54px;
   display: flex;
@@ -412,8 +412,8 @@ h6 {
 
 #hero .carousel-control-next-icon:hover,
 #hero .carousel-control-prev-icon:hover {
-  background: rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.8);
+  background: #d81e68;
+  color:#3c9ec9;
 }
 
 #hero .carousel-indicators li {
@@ -481,6 +481,54 @@ h6 {
     height: 120vh;
   }
 }
+
+/*--------------------------------------------------------------
+#  redes
+--------------------------------------------------------------*/
+
+
+.section-redes {
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-redes h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-redes h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-redes h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #006fbe;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-redes p {
+  margin-bottom: 0;
+}
+
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -578,14 +626,14 @@ section {
   border-radius: 5px;
   transition: 0.3s;
   line-height: 1;
-  color: #006fbe;
+  color: #3c9ec9;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #006fbe;
+  border: 2px solid #3c9ec9;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #006fbe;
+  background: #3c9ec9;
   color: #fff;
   text-decoration: none;
 }
@@ -604,7 +652,7 @@ section {
   align-items: center;
   width: 80px;
   height: 80px;
-  background: #fff;
+  background: #ffff;
   border-radius: 50%;
   margin-bottom: 20px;
   transition: 0.5s;
@@ -614,7 +662,7 @@ section {
 
 .features .icon i {
   line-height: 0;
-  color: #006fbe;
+  color: #d81e68;
   font-size: 34px;
 }
 
@@ -631,12 +679,12 @@ section {
 }
 
 .features .title a {
-  color: #444444;
+  color: #ffffff;
   transition: 0.3s;
 }
 
 .features .title a:hover {
-  color: #006fbe;
+  color: #d81e68;
 }
 
 .features .title::after {
@@ -645,14 +693,15 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #006fbe;
+  background: #ffffff;
   bottom: 0;
   left: calc(50% - 25px);
 }
 
 .features .description {
+  color: #fff;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /*--------------------------------------------------------------
@@ -889,7 +938,7 @@ section {
   text-transform: uppercase;
   font-weight: 400;
   margin-bottom: 15px;
-  color: #006fbe;
+  color: #ffffff;
 }
 
 .members .member .member-info p {
@@ -997,7 +1046,7 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
@@ -1287,7 +1336,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #1d284b;
+  background: #3c9ec9;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1318,7 +1367,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #006fbe;
+  background: #d81e68;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1412,4 +1461,36 @@ section {
   filter: none;
   opacity: 1;
 }
+
+.card {
+  background-color: white;
+}
+
+
+.card .image-box{
+  height: 200px;
+}
+.card .image.box{
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0.9rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #d81e68;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3c9ec9 ;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+
+
 
